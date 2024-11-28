@@ -13,7 +13,7 @@ export default function Home() {
       img: `https://picsum.photos/200/300?random=${randomSeed}`, 
       thumbClicked: false,
     };
-    setPictures([...pictures, newPicture]);
+    setPictures([...picütures, newPicture]);
     setId(id+1)
   };
   const handleChange = (id) => {
