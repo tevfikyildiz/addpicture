@@ -1,4 +1,5 @@
 "use client";
+
 import { FaThumbsUp } from "react-icons/fa";
 import { useState } from "react";
 export default function Home() {
