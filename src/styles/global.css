@@ -1,0 +1,44 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.button{
+  margin :10px
+}
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pictures > div {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.imgCustom {
+  width: 200px;
+  height: 300px;
+  display: block;
+}
+
+
+.thumb {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 24px;
+  color: yellow;
+  width: 60px;
+  height: 60px;
+}
+
+.thumbClick {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 24px;
+  color: yellow;
+  width: 100px;
+  height: 100px;
+}
